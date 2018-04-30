@@ -22,18 +22,24 @@ export default class NavBar extends React.Component {
     return (
       <div>
         <Navbar color="dark" dark>
-          <NavbarBrand href="/" className="mr-auto">Computer Spec Manager</NavbarBrand>
+          <NavbarBrand href="/" className="mr-auto">Peerawutgaga at GitHub.io</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink>LinkedIn</NavLink>
+                <NavLink>Home</NavLink>
               </NavItem>
                 <NavItem>
-                  <NavLink>Github</NavLink>
+                  <NavLink>Lifestyle</NavLink>
                 </NavItem>
               <NavItem>
-                <NavLink>Blog</NavLink>
+                <NavLink>Studying</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink>Webtool</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink>About me</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
